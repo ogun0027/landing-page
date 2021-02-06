@@ -1,11 +1,13 @@
 html,
 body {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 100%
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-html{
+html {
     background-color: #f7f7ff;
     background-image: url("scooter.png");
     background-repeat: no-repeat;
@@ -13,19 +15,19 @@ html{
     background-size: 800px;
 }
 
-header img{
+header img {
     width: 100px;
     height: auto;
     margin-left: 100px;
 }
 
-.content{
+.content {
     margin-left: 100px;
     margin-top: 100px;
     font-size: 50px;
 }
 
-.content h1{
+.content h1 {
     width: 400px;
 }
 
@@ -45,25 +47,25 @@ header img{
 /* Created a card to place the form on */
 .applynow {
 
-        box-shadow: 9px 4px 9px 0 grey;
-        transition: 0.5s;
-        width: 400px;
-        height:600px;
-        box-sizing: border-box;
-        border-radius: 15px;
+    box-shadow: 9px 4px 9px 0 grey;
+    transition: 0.5s;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
-.applynow:hover{
-        box-shadow: 0 8px 16px 0 grey;
+.applynow:hover {
+    box-shadow: 0 8px 16px 0 grey;
 }
 
-.applynow h1{
+.applynow h1 {
     font-size: 40px;
     margin-bottom: auto;
     padding: 10px;
 }
 
-.applynow p{
+.applynow p {
     padding: 10px;
     font-size: 30px;
     margin-top: auto;
@@ -72,8 +74,8 @@ header img{
 
 
 .form {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
@@ -81,29 +83,30 @@ header img{
 .form1 {
     margin-bottom: 20px;
 }
+
 /* Giving the input fields a full width */
-.form input{
+.form input {
     width: 100%;
 }
 
-.form2{
+.form2 {
     padding: 10px;
 }
 
-.appstatus{
+.appstatus {
     padding: 10px;
 }
 
-.appstatus p{
+.appstatus p {
     font-size: 15px;
 }
 
 /* Removing the space between this paragraph and the one before it. */
-.appstatus .status{
+.appstatus .status {
     padding-left: 0;
 }
 
-.submitbtn{
+.submitbtn {
     background-color: #57eeab;
     font-size: 40px;
     border-radius: 10px;
@@ -112,22 +115,70 @@ header img{
 
 .footer h2 {
     font-size: 15px;
-}
-
-.footer {
-    background-color: #FFFD8C;
-    display: flex;
-    flex-direction: column;
-    background-size: 100%;
-}
-
-.footerform{
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.footer p {
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+
+.footerform {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
 }
 
 .socials {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+
+}
+
+.footer {
+    background-color: #FFFD8C;
+    height: 200px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.spacecity {
+    padding-left: 30px;
+}
+
+.calculate {
+    background-color: #ff8480;
+}
+
+.spacecalc {
+    padding-left: 30px;
+}
+
+.grid {
+    height: 100%;
+    width: 100%;
+}
+
+.instagram {
+    padding-right: 15px;
+}
+
+.twitter {
+    padding-right: 15px;
+}
+
+.facebook {
+    padding-right: 15px;
+}
+
+.linkedin {
+    padding-right: 15px;
 }
